@@ -1,0 +1,80 @@
+body {
+    width: 50%;
+    border: 5px solid black;
+}
+
+.calculatrice {
+    border: 0px;
+    width: 25%;
+    position: center;
+    background-color: gray;
+}
+
+.calculatrice td {
+    height: 16.66%;
+}
+
+.calc_td_resultat {
+    text-align: center;
+}
+
+.calc_resultat {
+    width: 90%;
+    text-align: right;
+    border-radius: 30px;
+}
+
+.calc_td_calculs {
+    text-align: center;
+}
+
+.calc_calculs {
+    width: 90%;
+    text-align: left;
+}
+
+.calc_td_btn {
+    width: 25%;
+    height: 100%;
+    border: 0px;
+}
+
+.calc_btn {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: blue;
+}
+
+#calc-btn {
+    width: 100px;
+}
+
+.calc_btn[value="0"] {
+    text-align: left;
+}
+
+.calc_btn[value] {
+    color: white;
+}
+
+#signe5 {
+    background-color: orange;
+}
+
+#signe1 {
+    background-color: rgb(156, 156, 80);
+}
+
+#signe2 {
+    background-color: green;
+}
+
+#signe3 {
+    background-color: magenta;
+}
+
+#signe4 {
+    background-color: maroon;
+}
